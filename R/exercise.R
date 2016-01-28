@@ -18,7 +18,7 @@ GetFromTreeBase_exercise <- function() {
 	biggest.tree <- trees[[which.max(sapply(trees, Ntip))]]
 	
 	# Print out a description of the biggest tree
-	print("FormicaTree")
+	print(biggest.tree)
 	
 	# Let's look at the TreeBASE page for this study
 	browseURL(paste(
